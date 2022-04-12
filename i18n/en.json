@@ -2,6 +2,6 @@
 	"@metadata": {
 		"authors": ["Simon Stier"]
 	},
-	"template-desc": "Template for mediawiki extensions",
-	"template-name": "Template"
+	"spreadsheet-editor-desc": "SpreadsheetEditor for mediawiki extensions",
+	"spreadsheet-editor-name": "SpreadsheetEditor"
 }

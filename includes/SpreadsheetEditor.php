@@ -1,10 +1,10 @@
 <?php
 
-class Template {
+class SpreadsheetEditor {
 
 	public static function onBeforePageDisplay( $out ) {
 
-		$out->addModules( 'ext.Template' );
+		$out->addModules( 'ext.SpreadsheetEditor' );
 
 		return true;
 

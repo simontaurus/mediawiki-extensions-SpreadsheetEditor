@@ -1,40 +1,40 @@
 {
     "manifest_version":2,
-    "name":"Template",
+    "name":"SpreadsheetEditor",
     "version":"0.0.1",
     "author":[
         "[https://github.com/simontaurus Simon Stier]"
     ],
-    "url":"https://github.com/simontaurus/mediawiki-extensions-Template",
-    "descriptionmsg":"template-desc",
-    "namemsg":"template-name",
+    "url":"https://github.com/simontaurus/mediawiki-extensions-SpreadsheetEditor",
+    "descriptionmsg":"spreadsheet-editor-desc",
+    "namemsg":"spreadsheet-editor-name",
     "license-name":"AGPL-3.0-or-later",
     "type":"editor",
     "requires":{
         "MediaWiki":">= 1.31"
     },
     "MessagesDirs":{
-        "Template":[
+        "SpreadsheetEditor":[
             "i18n"
         ]
     },
     "ResourceModules":{
-        "ext.Template":{
-            "localBasePath":"modules/ext.Template",
-            "remoteExtPath":"Template/modules/ext.Template",
+        "ext.SpreadsheetEditor":{
+            "localBasePath":"modules/ext.SpreadsheetEditor",
+            "remoteExtPath":"SpreadsheetEditor/modules/ext.SpreadsheetEditor",
             "styles":[
-                "Template.css"
+                "SpreadsheetEditor.css"
             ],
             "scripts":[
-                "Template.js"
+                "SpreadsheetEditor.js"
             ],
             "position":"bottom"
         }
     },
     "AutoloadClasses":{
-        "Template":"includes/Template.php"
+        "SpreadsheetEditor":"includes/SpreadsheetEditor.php"
     },
     "Hooks":{
-        "BeforePageDisplay":"Template::onBeforePageDisplay"
+        "BeforePageDisplay":"SpreadsheetEditor::onBeforePageDisplay"
     }
 }
